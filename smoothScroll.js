@@ -1,6 +1,6 @@
 export const smoothScroll = (event) => {
   event.preventDefault()
-  pageLinkInnerWithHash(event?.target?.hash ?? "html")
+  smoothScrollWithHash(event?.target?.hash ?? "html")
 }
 
 export const smoothScrollWithHash = (hash) => {
