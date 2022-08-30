@@ -26,6 +26,6 @@ export const smoothScrollWithHash = (hash) => {
 }
 
 const movingPosition = (start, target, current) => {
-  const sin = Math.sin((current - target) / (start - target) * Math.PI / 2)
-  return sin * 100
+  const sin = Math.sin((current - target) / (start - target) * Math.PI)
+  return sin * 50
 }
